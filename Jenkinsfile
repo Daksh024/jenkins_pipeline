@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Mulit-Pipeline') {
             steps {
-                echo "krishna"
+                sh "python pythonc.py"
             }
         }
         
