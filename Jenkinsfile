@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Mulit-Pipeline') {
             steps {
-                sh "python pythonc.py"
+                sh "sudo python pythonc.py"
             }
         }
         
