@@ -1,11 +1,12 @@
-pipeline{
-	agent any{
-		stages{
-			stage('checking'){
-				step{
-					echo "krishna"
-				}
-			}
-		}
-	}
+pipeline {
+    agent any
+
+    stages {
+        stage('Mulit-Pipeline') {
+            steps {
+                echo "krishna"
+            }
+        }
+        
+    }
 }
